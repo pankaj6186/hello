@@ -19,7 +19,7 @@ print"welcome to the world of spy"
 print'let\'s get started'
 
 
-spy_exist=raw_input("Are you an existing user(Y or N)")
+spy_exist=raw_input("Are you an exsting user(Y or N)")
 if spy_exist.upper() =="Y":
     print "welcome "+spy_salutation+ spy_name+" age is %d:"%(spy_age)+" rating is %.3f"%(spy_rating)+" proud to be on board"
 
